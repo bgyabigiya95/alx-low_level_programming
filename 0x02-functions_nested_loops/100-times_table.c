@@ -11,6 +11,7 @@ int num, mult, prod;
 
 if (n >= 0 && n <= 15)
 {
+for (n >= 0 && n <= 15)
 {
 _putchar('0');
 
