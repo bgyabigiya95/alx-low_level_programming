@@ -12,7 +12,7 @@ int main(void)
 
 	nb = _atoi("98");
 	printf("%d\n", nb);
-	nb = _atio("-402");
+	nb = _atoi("-402");
 	printf("%d\n", nb);
 	nb = _atoi("          ------++++++-----+++++--98");
 	printf("%d\n", nb);
@@ -27,4 +27,4 @@ int main(void)
 	nb = _atoi("---++++ -++ Sui - te -  402 #cisfun :)");
 	printf("%d\n", nb);
 	return (0);
-	}
+}
