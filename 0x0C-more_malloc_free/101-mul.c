@@ -32,7 +32,7 @@ int _isNumber(char *argv)
 }
 
 /**
- * _calloc - allocate array of size * nmemb.
+ *_calloc - allocate array of size * nmemb.
  * @nmemb: number of elements.
  * @size: size of element.
  * Return: pointer to array.
@@ -108,10 +108,10 @@ void print_array(char *a, int nb)
 }
 
 /**
- * main - print the multiplication of 2 numbers.
- * @argc: array length.
- * @argv: array.
- * Return: 0.
+ *main - print the multiplication of 2 numbers.
+ *@argc: array length.
+ *@argv: array.
+ *Return: 0.
  */
 
 int main(int argc, char *argv[])
