@@ -144,6 +144,9 @@ void print_osabi(unsigned char *e_ident)
 	case ELFOSABI_NONE:
 		printf("UNIX - System V\n");
 		break;
+	case ELFOSABI_HPUX:
+		printf("UNIX - HP-UX\n");
+		break;
 	case ELFOSABI_NETBSD:
 		printf("UNIX - NetBSD\n");
 		break;
