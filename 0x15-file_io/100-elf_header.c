@@ -125,6 +125,9 @@ void print_version(unsigned char *e_ident)
 	case EV_CURRENT:
 		printf(" (current)\n");
 		break;
+	default:
+		printf("\n");
+		break;
 	}
 }
 
